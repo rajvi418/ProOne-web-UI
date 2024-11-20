@@ -30,48 +30,48 @@
 
 /* Width */
 .w-10 {
-    border: 2px solid red;
+    border: 2px solid green;
     width: 10%;
 }
 
 .w-20 {
-    border: 2px solid red;
+    border: 2px solid yellow;
     width: 20%;
 }
 
 .w30 {
-    border: 2px solid red;
+    border: 2px solid pink;
     width: 30%;
 }
 
 .w-40 {
-    border: 2px solid red;
+    border: 2px solid blue;
     width: 40%;
 }
 
 .w-50 {
-    border: 2px solid red;
+    border: 2px solid rgb(145, 241, 126);
     width: 50%;
 }
 
 .w-60 {
-    border: 2px solid red;
+    border: 2px solid rgb(255, 137, 186);
     width: 60%;
 }
 
 .w-70 {
-    border: 2px solid red;
+    border: 2px solid rgb(77, 173, 125);
     width: 70%;
 }
 
 .w-80 {
-    border: 2px solid red;
+    border: 2px solid rgb(30, 159, 174);
     width: 80%;
 }
 
 .w-90 {
     width: 90%;
-    border: 2px solid red;
+    border: 2px solid rgb(25, 24, 61);
 }
 
 .w-100 {
@@ -80,6 +80,16 @@
     border: 2px solid red;
 }
 /* alignment */
+/* columns */
+.column
+{
+    display: block;
+}
+.row
+{
+    display: flex;
+  
+}
 /* justify-content */
 .space-around
 {
@@ -129,11 +139,24 @@
 }
 
 nav ul {
-    display: flex;
+    /* display: flex; */
     list-style: none;
 }
 
 header nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
+}
+.mini-menu
+{
+    width: 210px;
+    height: 200px;
+    display: flex;
+    border: 2px solid yellow;
+}
+.mini-menu ul li a
+{
+    /* display: block; */
+    border: 2px solid green;
+    
 }
