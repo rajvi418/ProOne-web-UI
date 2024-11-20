@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background: #000;
+} */
+
+:root {
+    --white: #fff;
+    --blue: #3c368c;
+    --grey:#707070;
+    --yellow:#feac01;
+    --purle:#c065de;
+    --poppins: 'Poppins';
+    --roboto:'Roboto';
+}
+
+.container {
+    width: 1140px;
+    display: flex;
+}
+
+/* Width */
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* Colors */
+.white {
+    color: var(--white);
+}
+.blue
+{
+    color: var(--blue);
+}
+.grey
+{
+    color: var(--grey);
+}
+.purple
+{
+    color: var(--purle);
+}
+.yellow
+{
+    color: var(--yellow);
+}
+/* Fonts */
+.poppins {
+    font-family: var(--poppins);
+}
+.roboto
+{
+    font-family: ;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
