@@ -4,9 +4,6 @@
     padding: 0;
 }
 
-/* body {
-    background: #000;
-} */
 
 :root {
     --white: #fff;
@@ -20,77 +17,64 @@
 
 .container {
     width: 1140px;
-    display: flex;
     margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--blue);
-    font-size: 14px;
 }
 
 /* Width */
 .w-10 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 10%;
+    padding:10px;
 }
 
 .w-20 {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 20%;
+    padding:10px;
 }
 
-.w30 {
-    border: 2px solid pink;
+.w-30 {
+    /* border: 2px solid pink; */
     width: 30%;
+    padding:10px;
 }
 
 .w-40 {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 40%;
+    padding:10px;
 }
 
 .w-50 {
-    border: 2px solid rgb(145, 241, 126);
     width: 50%;
+    padding:10px;
 }
 
 .w-60 {
-    border: 2px solid rgb(255, 137, 186);
     width: 60%;
+    padding:10px;
 }
 
 .w-70 {
-    border: 2px solid rgb(77, 173, 125);
     width: 70%;
+    padding:10px;
 }
 
 .w-80 {
-    border: 2px solid rgb(30, 159, 174);
     width: 80%;
+    padding:10px;
 }
 
 .w-90 {
     width: 90%;
-    border: 2px solid rgb(25, 24, 61);
-}
-
-.w-100 {
-    width: 600px;
-    
-    border: 2px solid red;
+    padding:10px;
 }
 /* alignment */
-/* columns */
-.column
-{
-    display: block;
-}
 .row
 {
     display: flex;
-  
+    flex-wrap:wrap ;
 }
-/* justify-content */
 .space-around
 {
     justify-content: space-around;
@@ -107,7 +91,16 @@
 {
     justify-content: center;
 }
-
+.align-center
+{
+    align-items: center;
+}
+.justify-end{
+    justify-content: end;
+}
+img{
+    width: 100%;
+}
 /* Colors */
 .white {
     color: var(--white);
@@ -138,25 +131,46 @@
     font-family: var(--roboto);
 }
 
-nav ul {
-    /* display: flex; */
+ul{
     list-style: none;
 }
 
+/* header */
+header{
+    background-color: var(--blue);
+}
 header nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
 }
-.mini-menu
+
+.home 
+{
+    position: relative;
+}
+.home .mini-menu
 {
     width: 210px;
     height: 200px;
     display: flex;
-    border: 2px solid yellow;
+    padding: 10px;
+    background-color: var(--purle);
+    margin-top: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }
-.mini-menu ul li a
+.home .mini-menu ul li a
 {
-    /* display: block; */
-    border: 2px solid green;
-    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3.5px 0px;
+}
+.home:hover .mini-menu
+{
+    opacity: 1;
+    visibility: visible;
 }
