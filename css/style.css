@@ -32,50 +32,50 @@
 .w-10 {
     /* border: 2px solid green; */
     width: 10%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .w-20 {
     /* border: 2px solid yellow; */
     width: 20%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .w-30 {
     /* border: 2px solid pink; */
     width: 30%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .w-40 {
     /* border: 2px solid blue; */
     width: 40%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .w-50 {
     width: 50%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .w-60 {
     width: 60%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .w-70 {
     width: 70%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .w-80 {
     width: 80%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .w-90 {
     width: 90%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 /* alignment */
@@ -293,31 +293,33 @@ header nav ul li a {
     background: rgb(86, 48, 132);
     background: linear-gradient(157deg, rgba(86, 48, 132, 1) 51%, rgba(41, 35, 86, 1) 89%);
     left: 590px;
+    line-height: 25px;
 }
 
-.h-1
-{
-    border:  2px solid red;
+.h-1 {
+    /* border:  2px solid red; */
     font-size: 100px;
     font-weight: 620;
+    padding: 0;
 }
-.h-2
-{
-    border:  2px solid pink;
+
+.h-2 {
+    /* border:  2px solid pink; */
     font-weight: 700;
-    height: 100px;
-}
-.h-2 .per
-{
     font-size: 60px;
+    line-height: 28px;
 }
-.h-2 .off
-{
+
+.h-2 .off {
     font-size: 35px;
     color: var(--yellow);
 }
-.h-3{
-    border:  2px solid green;
+
+.h-3 {
+    border: 2px solid green;
+    color: var(--yellow);
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .right-content {
