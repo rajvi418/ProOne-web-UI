@@ -19,7 +19,7 @@
     width: 1140px;
     margin: auto;
     position: relative;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* Width */
@@ -38,6 +38,11 @@
 .w-30 {
     /* border: 2px solid pink; */
     width: 30%;
+    padding: 10px;
+}
+.w-35
+{
+    width: 35%;
     padding: 10px;
 }
 
@@ -66,7 +71,11 @@
     width: 70%;
     padding: 10px;
 }
-
+.w-75
+{
+    width: 75%;
+    padding: 10px;
+}
 .w-80 {
     width: 80%;
     padding: 10px;
@@ -212,7 +221,6 @@ header nav ul li a {
     background-image: url("../img/header-background-image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid red;
 }
 
 .banner-bg a {
@@ -393,3 +401,95 @@ h2
 }
 
 /* 1st section */
+.section-2
+{
+    margin: auto;
+    padding: 110px 0px 70px 0px;
+    position: relative;
+}
+.section-2 p{
+    color: var(--grey);
+}
+.sec-2-cross
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main-container
+{
+    display: flex;
+}
+/* :left containt */
+.header-container-sec-1
+{
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+.header-container-sec-1 h2
+{
+    color: var(--blue);
+    line-height: 48px;
+    padding-bottom: 10px;
+}
+.main-container-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec-2-container
+{
+    /* text-align: justify; */
+    padding: 0px 15px;
+}
+.sec-2-container .cont-img{
+    padding: 0px;
+    margin-bottom: 25px;
+}
+
+.cont-detail h2
+{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--blue);
+}
+.cont-detail p
+{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Right .containt */
+.right-container
+{
+ position: absolute;
+ top: 60px;
+ right: -200px;
+ animation: float 2s linear infinite;
+}
+
+/* section 3 */
+.section-3
+{
+    border: 2px solid red;
+}
+.sec-3-main
+{
+    border: 2px solid blue;
+    margin: auto;
+}
+.sec-3-head
+{
+    text-align: center;
+    margin: auto;
+    border: 2px solid green;
+}
+.sec-3-head h2
+{
+    color: var(--blue);
+    font-size: 38px;
+}
+.sec-3-head p
+{
+    font-size: 16px;
+    color: var(--grey);
+}
