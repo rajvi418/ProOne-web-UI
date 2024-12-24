@@ -842,7 +842,11 @@ h2 {
 }
 .sec-6-cont p
 { 
-    line-height: 24px;
+    line-height: 30px;
     margin-bottom: 10px;
     font-size: 16px;
+}
+.sec-6-video
+{
+    transform: translateY(30px);
 }
