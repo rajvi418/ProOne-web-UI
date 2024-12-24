@@ -685,18 +685,21 @@ h2 {
     background-image: url("../img/section-5.svg");
     background-repeat: no-repeat;
 }
-.main-container
-{
+
+.main-container {
     padding: 120px 0px 120px;
     display: block;
     margin: auto;
 }
+
 .top-container {
     margin-bottom: 60px;
 }
+
 .img-con {
     animation: float 2s linear infinite;
 }
+
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -814,39 +817,59 @@ h2 {
 }
 
 /* section-6 */
-.section-6
-{
+.section-6 {
     background-image: url("../img/earth.svg");
     background-repeat: no-repeat;
     background-position-x: center;
     display: flex;
 }
-.sec-6-main
-{
+
+.sec-6-main {
     display: flex;
     flex-wrap: wrap;
     padding: 110px 0px 110px 0px;
 }
-.sec-6-cont
-{
+
+.sec-6-cont {
     color: var(--white);
     padding-bottom: 30px;
     padding-top: 0px;
     text-align: center;
 }
-.sec-6-cont h2
-{ 
+
+.sec-6-cont h2 {
     font-size: 38px;
     font-size: 700;
     margin-bottom: 15px;
 }
-.sec-6-cont p
-{ 
+
+.sec-6-cont p {
     line-height: 30px;
     margin-bottom: 10px;
     font-size: 16px;
 }
-.sec-6-video
-{
+
+.sec-6-video {
     transform: translateY(30px);
+}
+
+/* section-7 */
+.sec-boxes {
+    background-color: #31136b;
+    border: 2px solid var(--purle);
+    padding: 50px 15px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--white);
+    position: relative;
+}
+
+.sec-7-boxes .img-sec {
+
+    border-radius: 500px;
+    position: absolute;
+    top: -55px;
+    left: 35%;
 }
