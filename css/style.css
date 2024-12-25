@@ -143,7 +143,10 @@ a {
     width: 95%;
     padding: 10px;
 }
-
+.mx-auto
+{
+    margin: auto;
+}
 /* padding */
 .py-100 {
     padding: 100px 0px;
@@ -854,13 +857,14 @@ h2 {
 }
 
 /* section-7 */
-.section-7 {
-    border: 2px solid red;
-}
-.sec-7-main
+.section-7
 {
-    border: 2px solid black;
-    margin: auto;
+    padding:0px 15px 140px 15px;
+}
+.section-7-boxes
+{
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 .boxes-7 {
     border: 1px solid var(--purle);
@@ -872,25 +876,31 @@ h2 {
     color: var(black);
     position: relative;
 }
-.sec-7-cont 
-{
-    border:  2px solid red;
+
+.sec-7-cont {
     text-align: center;
     margin: auto;
+    padding: 0px 15px;
 }
-.sec-7-cont h2{
+
+.sec-7-cont h2 {
     font-size: 38px;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
     font-weight: 700;
     line-height: 48px;
     color: var(--blue);
 }
-.sec-7-cont p
-{
+
+.sec-7-cont p {
     font-size: 16px;
     margin-bottom: 10px;
     padding-bottom: 30px;
     color: var(--grey);
+    text-align: center;
+}
+
+.sec-7-boxes {
+    margin-top: 30px;
 }
 
 .sec-7-boxes .img-sec {
@@ -903,41 +913,109 @@ h2 {
     display: flex;
 }
 
-.img-sec .sec-7-img
-{
+.img-sec .sec-7-img {
     align-self: center;
 }
 
-.quote
-{
+.quote {
     fill: var(--blue);
     margin-top: 10px;
     padding: 35px 15px 15px;
 }
 
-.cont-sec p 
-{
-    text-align: center;
-    color: var(--grey);
-margin-bottom: 16px;
+.cont-sec {
+    padding: 0px 15px;
 }
 
-.fa-star
-{
+.cont-sec p {
+    text-align: center;
+    color: var(--grey);
+    margin-bottom: 16px;
+}
+
+.fa-star {
     color: var(--yellow);
 }
 
-.cont-sec h5
-{
+.cont-sec h5 {
     font-size: 20px;
     font-weight: 500;
     color: var(--blue);
     margin: 5px 0px 5px;
-} 
-.cont-sec h6{
+}
+
+.cont-sec h6 {
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
     color: var(--grey);
     margin-bottom: 15px;
+}
+
+.dots
+{
+    text-decoration: none;
+    color: var(--yellow);
+    display: flex;
+    justify-content: center;
+}
+.fa-circle
+{
+    margin-right: 5px;
+}
+
+/* section-8 */
+.section-8
+{
+    border: 2px solid green;
+    position: relative;
+}
+.design-img
+{
+    width: 400px;
+    position: absolute;
+    top: -200px;
+    left: -160px;
+}
+.left-contain-8
+{
+    border: 2px solid red;
+}
+.details
+{
+    padding-bottom: 30px;
+}
+.left-contain-8 .details h2
+{
+    font-size: 38px;
+    margin-bottom: 15px;
+    line-height: 48px;
+    color: var(--blue);
+}
+.left-contain-8 .details p
+{
+    font-size: 16px; 
+    line-height: 24px ;
+    color: var(--grey);
+    margin-bottom: 10px;
+}
+.email
+{
+    border: 2px solid yellow;
+}
+input
+{
+    width: 400px;
+    height: 60px;
+    border: 2px solid black;
+}
+.subscribe-btn
+{
+    width: 160px;
+    height: 60px;
+}
+
+.right-contain-8
+{
+    border: 2px solid green;
 }
