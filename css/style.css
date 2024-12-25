@@ -624,7 +624,8 @@ h2 {
     height: 100%;
     background-image: url("../img/background-2.svg");
     background-repeat: no-repeat;
-    padding: 100px 80px 10px;
+    padding: 100px 80px 10px 100px;
+
 }
 
 .sec-4-boxes {
@@ -646,13 +647,12 @@ h2 {
 }
 
 .sec-4-head p {
-    margin-bottom: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    line-height: 24px
 }
 
 .sec-boxes {
     padding: 0px 15px;
-    margin-bottom: 50px;
 
 }
 
@@ -676,7 +676,7 @@ h2 {
 }
 
 .foot-img {
-    transform: translateY(25px);
+    transform: translateY(26px);
 }
 
 
@@ -854,22 +854,49 @@ h2 {
 }
 
 /* section-7 */
-.sec-boxes {
-    background-color: #31136b;
-    border: 2px solid var(--purle);
-    padding: 50px 15px 40px;
+.section-7 {
+    border: 2px solid red;
+}
+
+.boxes-7 {
+    border: 1px solid var(--purle);
+    padding: 30px 15px 25px;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    color: var(--white);
+    color: var(black);
     position: relative;
+}
+.sec-7-cont 
+{
+    border:  2px solid red;
+    text-align: center;
+}
+.sec-7-cont h2{
+    font-size: 38px;
+    margin-bottom: 15px; 
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--blue);
+}
+.sec-7-cont p
+{
+    font-size: 16px;
+    color: var(--grey);
 }
 
 .sec-7-boxes .img-sec {
 
-    border-radius: 500px;
     position: absolute;
     top: -55px;
     left: 35%;
+    border: 5px solid var(--darkblue);
+    border-radius: 50%;
+    display: flex;
+}
+
+.img-sec .sec-7-img
+{
+    align-self: center;
 }
