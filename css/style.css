@@ -857,7 +857,11 @@ h2 {
 .section-7 {
     border: 2px solid red;
 }
-
+.sec-7-main
+{
+    border: 2px solid black;
+    margin: auto;
+}
 .boxes-7 {
     border: 1px solid var(--purle);
     padding: 30px 15px 25px;
@@ -872,6 +876,7 @@ h2 {
 {
     border:  2px solid red;
     text-align: center;
+    margin: auto;
 }
 .sec-7-cont h2{
     font-size: 38px;
@@ -883,6 +888,8 @@ h2 {
 .sec-7-cont p
 {
     font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
     color: var(--grey);
 }
 
@@ -899,4 +906,38 @@ h2 {
 .img-sec .sec-7-img
 {
     align-self: center;
+}
+
+.quote
+{
+    fill: var(--blue);
+    margin-top: 10px;
+    padding: 35px 15px 15px;
+}
+
+.cont-sec p 
+{
+    text-align: center;
+    color: var(--grey);
+margin-bottom: 16px;
+}
+
+.fa-star
+{
+    color: var(--yellow);
+}
+
+.cont-sec h5
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--blue);
+    margin: 5px 0px 5px;
+} 
+.cont-sec h6{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--grey);
+    margin-bottom: 15px;
 }
