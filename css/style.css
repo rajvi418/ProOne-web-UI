@@ -859,7 +859,7 @@ h2 {
 /* section-7 */
 .section-7
 {
-    padding:0px 15px 140px 15px;
+    padding:100px 0px;
 }
 .section-7-boxes
 {
@@ -967,7 +967,6 @@ h2 {
 /* section-8 */
 .section-8
 {
-    border: 2px solid green;
     position: relative;
 }
 .design-img
@@ -979,7 +978,7 @@ h2 {
 }
 .left-contain-8
 {
-    border: 2px solid red;
+    padding: 0px 15px;
 }
 .details
 {
@@ -999,23 +998,90 @@ h2 {
     color: var(--grey);
     margin-bottom: 10px;
 }
-.email
-{
-    border: 2px solid yellow;
-}
 input
 {
-    width: 400px;
+    width: 70%;
     height: 60px;
-    border: 2px solid black;
+    background-color: #adabf4;
+    border: none;
+    padding-left: 15px;
+    font-size: inherit;
 }
 .subscribe-btn
 {
-    width: 160px;
+    width: 30%;
+    margin-left: -5px;
     height: 60px;
+    border: none;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--blue);
 }
 
 .right-contain-8
 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    padding: 0px 15px;
+}
+
+/* footer section */
+footer
+{
+    width: 100%;
+    padding-top: 65px;
+    background-color: #593087;
+    position: relative;
+    z-index: 1;
+}
+footer::after
+{
+    content: "";
+    background-image: url("../img/footer-background.png");
+    position: absolute;
+    width: 100%;
+    top: 0;
+    opacity: 0.09;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+footer a
+{
+    color: var(--white);
+}
+.footer-section
+{
+    text-transform: uppercase;
+}
+.footer-logo
+{
+    margin-bottom: 52px;
+}
+.navigation
+{
+    margin-bottom: 60px;
+}
+.pipe
+{
+    font-weight: 100;
+}
+.social-media
+{
+    margin-bottom: 70px;
+}
+.social-media div div
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 100% ;
+    background-color:#6f62b5;
+    text-align: center;
+    align-content: center;
+}
+.footer-line
+{
+    font-size: 18px;
+    padding: 18px;
+    text-align: center;
 }
