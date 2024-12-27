@@ -143,10 +143,11 @@ a {
     width: 95%;
     padding: 10px;
 }
-.mx-auto
-{
+
+.mx-auto {
     margin: auto;
 }
+
 /* padding */
 .py-100 {
     padding: 100px 0px;
@@ -190,6 +191,10 @@ img {
     position: relative;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Colors */
 .white {
     color: var(--white);
@@ -226,10 +231,12 @@ ul {
 
 /* header */
 header {
+    /* background-color: #593087; */
     background-color: transparent;
     position: fixed;
-    top: 0;
+    /* top: 0; */
     width: 100%;
+    z-index: 999999;
 }
 
 header nav ul li a {
@@ -256,6 +263,7 @@ header nav ul li a {
     top: 25px;
     left: -20px;
     border-top: 3px solid var(--yellow);
+    z-index: 99999;
 }
 
 .home .mini-menu ul li a {
@@ -857,15 +865,15 @@ h2 {
 }
 
 /* section-7 */
-.section-7
-{
-    padding:100px 0px;
+.section-7 {
+    padding: 100px 0px;
 }
-.section-7-boxes
-{
+
+.section-7-boxes {
     margin-top: 80px;
     margin-bottom: 50px;
 }
+
 .boxes-7 {
     border: 1px solid var(--purle);
     padding: 30px 15px 25px;
@@ -952,54 +960,52 @@ h2 {
     margin-bottom: 15px;
 }
 
-.dots
-{
+.dots {
     text-decoration: none;
     color: var(--yellow);
     display: flex;
     justify-content: center;
 }
-.fa-circle
-{
+
+.fa-circle {
     margin-right: 5px;
 }
 
 /* section-8 */
-.section-8
-{
+.section-8 {
     position: relative;
 }
-.design-img
-{
+
+.design-img {
     width: 400px;
     position: absolute;
     top: -200px;
     left: -160px;
 }
-.left-contain-8
-{
+
+.left-contain-8 {
     padding: 0px 15px;
 }
-.details
-{
+
+.details {
     padding-bottom: 30px;
 }
-.left-contain-8 .details h2
-{
+
+.left-contain-8 .details h2 {
     font-size: 38px;
     margin-bottom: 15px;
     line-height: 48px;
     color: var(--blue);
 }
-.left-contain-8 .details p
-{
-    font-size: 16px; 
-    line-height: 24px ;
+
+.left-contain-8 .details p {
+    font-size: 16px;
+    line-height: 24px;
     color: var(--grey);
     margin-bottom: 10px;
 }
-input
-{
+
+input {
     width: 70%;
     height: 60px;
     background-color: #adabf4;
@@ -1007,8 +1013,8 @@ input
     padding-left: 15px;
     font-size: inherit;
 }
-.subscribe-btn
-{
+
+.subscribe-btn {
     width: 30%;
     margin-left: -5px;
     height: 60px;
@@ -1019,23 +1025,21 @@ input
     background-color: var(--blue);
 }
 
-.right-contain-8
-{
+.right-contain-8 {
     /* border: 2px solid green; */
     padding: 0px 15px;
 }
 
 /* footer section */
-footer
-{
+footer {
     width: 100%;
     padding-top: 65px;
     background-color: #593087;
     position: relative;
     z-index: 1;
 }
-footer::after
-{
+
+footer::after {
     content: "";
     background-image: url("../img/footer-background.png");
     position: absolute;
@@ -1046,42 +1050,87 @@ footer::after
     background-repeat: no-repeat;
     z-index: -1;
 }
-footer a
-{
+
+footer a {
     color: var(--white);
 }
-.footer-section
-{
+
+.footer-section {
     text-transform: uppercase;
 }
-.footer-logo
-{
+
+.footer-logo {
     margin-bottom: 52px;
 }
-.navigation
-{
+
+.navigation {
     margin-bottom: 60px;
 }
-.pipe
-{
+
+.pipe {
     font-weight: 100;
 }
-.social-media
-{
+
+.social-media {
     margin-bottom: 70px;
 }
-.social-media div div
-{
+
+.social-media div div {
     height: 40px;
     width: 40px;
-    border-radius: 100% ;
-    background-color:#6f62b5;
+    border-radius: 100%;
+    background-color: #6f62b5;
     text-align: center;
     align-content: center;
 }
-.footer-line
-{
+
+.footer-line {
     font-size: 18px;
     padding: 18px;
     text-align: center;
+}
+
+
+/* Product page */
+.product-banner {
+    width: 100%;
+    padding-top: 65px;
+    background-color: #593087;
+    position: relative;
+    z-index: 1;
+}
+
+.product-banner::after {
+    content: "";
+    background-image: url("../img/footer-background.png");
+    position: absolute;
+    width: 100%;
+    top: 0;
+    opacity: 0.09;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.banner-contain {
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.banner-contain h1 {
+    font-size: 58px;
+    line-height: 87px;
+}
+.banner-contain {
+    font-weight: 400;
+}
+
+.banner-contain a
+{
+    color: var(--white);
+    margin-right: 5px;
+}
+
+.product-list{
+    border: 2px solid red;
 }
