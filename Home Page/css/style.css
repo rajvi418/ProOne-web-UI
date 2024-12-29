@@ -1131,7 +1131,10 @@ footer a {
     color: var(--white);
     margin-right: 5px;
 }
-
+.left-list
+{
+    padding: 0px 15px;
+}
 
 .aside-heading {
     border: none;
@@ -1174,27 +1177,37 @@ span {
     align-items: center;
     display: flex;
 }
-
+/* right side */
 .right-list {
     border: 2px solid red;
+    padding: 0px 15px;
 }
 
 .right-head-filter {
-    border: 2px solid var(--grey);
+    border: 1px solid gray;
     display: flex;
-    padding: 25px;
-}
-.sort-by
-{
-    font-size: 18px;
-}
-.company
-{
-    border: 2px solid green;
-    width: 180px;
-    padding:5px 10px;
+    align-items: center;
+    padding: 15px 25px;
 }
 
+.sort-by {
+    font-size: 18px;
+}
+
+.sort-by label {
+    padding-right: 10px;
+}
+
+.company {
+    border: 1px solid gray;
+    width: 180px;
+    padding: 5px 10px;
+}
+.choose-name .company
+{
+
+    border: none;
+}
 
 
 
