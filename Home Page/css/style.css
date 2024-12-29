@@ -1208,8 +1208,16 @@ span {
 
     border: none;
 }
-
-
+.products-review
+{
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+.border
+{
+    border: 2px solid red;
+}
 
 
 
