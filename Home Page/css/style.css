@@ -1131,8 +1131,8 @@ footer a {
     color: var(--white);
     margin-right: 5px;
 }
-.left-list
-{
+
+.left-list {
     padding: 0px 15px;
 }
 
@@ -1177,9 +1177,9 @@ span {
     align-items: center;
     display: flex;
 }
+
 /* right side */
 .right-list {
-    border: 2px solid red;
     padding: 0px 15px;
 }
 
@@ -1203,36 +1203,20 @@ span {
     width: 180px;
     padding: 5px 10px;
 }
-.choose-name .company
-{
+
+.choose-name .company {
 
     border: none;
 }
-.products-review
-{
-    border: 2px solid green;
+
+.products-review {
     display: flex;
     flex-wrap: wrap;
 }
-.border
-{
-    border: 2px solid red;
+
+.products {
+    padding: 10px 15px 10px 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.product-list {
-    border: 2px solid green;
+.productss {
+    padding: 10px 0px 10px 15px;
 }
