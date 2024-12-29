@@ -25,7 +25,27 @@
     position: relative;
     /* border: 2px solid red; */
 }
-
+/* Decoration */
+.red
+{
+    border: 2px solid red;
+}
+.green
+{
+    border: 2px solid green;
+}
+.yellow
+{
+    border: 2px solid yellow;
+}
+.pink
+{
+    border: 2px solid pink;
+}
+.blue
+{
+    border: 2px solid blue;
+}
 /* Font Family */
 h1,
 h2,
@@ -179,7 +199,11 @@ a {
 .align-center {
     align-items: center;
 }
-
+.justify-center
+{
+    display: flex;
+    justify-content: center;
+}
 .justify-end {
     justify-content: end;
 }
@@ -187,7 +211,11 @@ a {
 img {
     width: 100%;
 }
-
+.wrap
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 .relative {
     position: relative;
 }
@@ -1218,4 +1246,42 @@ span {
 }
 .productss {
     padding: 10px 0px 10px 15px;
+}
+
+/* contact us page  */
+/* section 1 */
+.contact-details 
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact-details h2
+{
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: var(--blue);
+    font-family: var(--poppins);
+}
+.contact-details p
+{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: var(--grey);
+    font-family: var(--roboto);
+}
+.box-1
+{
+    padding: 35px 0px;
+    /* margin: auto; */
+}
+.box-1 a
+{
+    font-size: 18px;
+    color: var(--grey);
+    font-family: var(--poppins);
+}
+.box-1 .img
+{
+    width: 30%;
+    margin-bottom: 20px;
 }
