@@ -25,27 +25,28 @@
     position: relative;
     /* border: 2px solid red; */
 }
+
 /* Decoration */
-.red
-{
+.red {
     border: 2px solid red;
 }
-.green
-{
+
+.green {
     border: 2px solid green;
 }
-.yellow
-{
+
+.yellow {
     border: 2px solid yellow;
 }
-.pink
-{
+
+.pink {
     border: 2px solid pink;
 }
-.blue
-{
+
+.blue {
     border: 2px solid blue;
 }
+
 /* Font Family */
 h1,
 h2,
@@ -174,6 +175,14 @@ a {
     padding: 100px 0px;
 }
 
+.pyt-100 {
+    padding-top: 100px;
+}
+
+.pyb-100 {
+    padding-bottom: 100px;
+}
+
 /* alignment */
 .row {
     display: flex;
@@ -199,11 +208,12 @@ a {
 .align-center {
     align-items: center;
 }
-.justify-center
-{
+
+.justify-center {
     display: flex;
     justify-content: center;
 }
+
 .justify-end {
     justify-content: end;
 }
@@ -211,11 +221,12 @@ a {
 img {
     width: 100%;
 }
-.wrap
-{
+
+.wrap {
     display: flex;
     flex-wrap: wrap;
 }
+
 .relative {
     position: relative;
 }
@@ -894,9 +905,6 @@ h2 {
 }
 
 /* section-7 */
-.section-7 {
-    padding: 100px 0px;
-}
 
 .section-7-boxes {
     margin-top: 80px;
@@ -1043,7 +1051,7 @@ h2 {
     font-size: inherit;
 }
 
-.email .subscribe-btn {
+.subscribe-btn {
     width: 30%;
     margin-left: -5px;
     height: 60px;
@@ -1052,6 +1060,11 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     background-color: var(--blue);
+    transition: all 0.2s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: var(--yellow);
 }
 
 .right-contain-8 {
@@ -1096,6 +1109,14 @@ footer a {
     margin-bottom: 60px;
 }
 
+.points {
+    transition: all 0.3s;
+}
+
+.points:hover {
+    color: var(--yellow);
+}
+
 .pipe {
     font-weight: 100;
 }
@@ -1104,21 +1125,25 @@ footer a {
     margin-bottom: 70px;
 }
 
-.social-media div div {
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    background-color: #6f62b5;
-    text-align: center;
-    align-content: center;
-}
-
 .footer-line {
     font-size: 18px;
     padding: 18px;
     text-align: center;
 }
 
+.social {
+    background-color: #6f62b5;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+    align-content: center;
+    transition: all 0.5s;
+}
+
+.social:hover {
+    background-color: var(--yellow);
+}
 
 /* Product page */
 .product-banner {
@@ -1217,6 +1242,7 @@ span {
     align-items: center;
     padding: 15px 25px;
 }
+
 .sort-by {
     font-size: 18px;
 }
@@ -1244,26 +1270,26 @@ span {
 .products {
     padding: 10px 15px 10px 0px;
 }
+
 .productss {
     padding: 10px 0px 10px 15px;
 }
 
 /* contact us page  */
 /* section 1 */
-.contact-details 
-{
+.contact-details {
     text-align: center;
     padding-bottom: 30px;
 }
-.contact-details h2
-{
+
+.contact-details h2 {
     font-size: 38px;
     margin-bottom: 15px;
     color: var(--blue);
     font-family: var(--poppins);
 }
-.contact-details p
-{
+
+.contact-details p {
     font-size: 16px;
     margin-bottom: 10px;
     color: var(--grey);
@@ -1272,51 +1298,52 @@ span {
 }
 
 /* bottom detail */
-.box-1
-{
+.box-1 {
     display: block;
     padding: 30px 0px;
     border: none;
     box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.415);
 }
-.box-1 , a
-{
+
+.box-1,
+a {
     text-align: center;
     color: var(--grey);
     font-size: 18px;
     font-family: var(--poppins);
 }
-.box-1 .img
-{
+
+.box-1 .img {
     width: 30%;
     margin-bottom: 15px;
     padding: 5px;
 }
-.inputs
-{
+
+.inputs {
     display: flex;
     justify-content: space-between;
 
 }
-.inputs input
-{
+
+.inputs input {
     width: 50%;
-    padding:15px 15px;
+    padding: 15px 15px;
     border: none;
     font-family: var(--roboto);
     font-size: 16px;
     margin-bottom: 15px;
 }
-.inputs textarea
-{
+
+.inputs textarea {
     border: 1px solid rgba(128, 128, 128, 0.5);
     border-radius: 5px;
-    width:100%; 
+    width: 100%;
     padding: 15px;
     font-size: 16px;
     font-family: var(--roboto);
     margin-bottom: 18px;
 }
+
 .contact-btn {
     width: 170px;
     height: 45px;
@@ -1371,4 +1398,42 @@ span {
 
 .contact-btn:hover .svg {
     color: var(--white);
+}
+
+/* blog page */
+/* left  */
+.search-bar {
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f5;
+    padding: 15px 0px 15px 25px;
+    margin-bottom: 30px;
+}
+.fa-magnifying-glass
+{
+    color: var(--darkblue);
+}
+.search {
+    background-color:transparent;
+    border: none;
+}
+.list
+{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom ul li
+{
+    /* display:flex; */
+    align-content: center;
+}
+.bottom ul li div
+{
+    color: var(--blue);
+}
+.fa-play
+{
+    margin-right:10px ;
+    color: var(--yellow);
 }
