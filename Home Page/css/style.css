@@ -1418,6 +1418,13 @@ a {
     background-color:transparent;
     border: none;
 }
+.top-head
+{
+padding: 20px 25px 10px;
+margin-bottom: 15px;
+border-bottom: 1px solid grey;
+color: var(--blue);
+}
 .list
 {
     display: flex;
@@ -1431,9 +1438,40 @@ a {
 .bottom ul li div
 {
     color: var(--blue);
+    margin-bottom: 11px;
 }
 .fa-play
 {
     margin-right:10px ;
     color: var(--yellow);
+}
+.bottom
+{
+    padding:0px 30px 30px;
+}
+.widget
+{
+    margin-bottom: 30px;
+    border: none;
+    background-color: #f3f3f5;
+}
+.post-content .title
+{
+    color: var(--blue);
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.fa-calendar-days
+{
+    color: var(--yellow);
+    margin-right: 10px;
+}
+.widget-post
+{
+    margin-bottom: 10px;
+}
+.widget-post p
+{
+    color: var(--grey);
 }
