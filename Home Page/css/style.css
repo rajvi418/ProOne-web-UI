@@ -205,6 +205,10 @@ a {
     justify-content: center;
 }
 
+.content-center {
+    align-content: center;
+}
+
 .align-center {
     align-items: center;
 }
@@ -510,7 +514,6 @@ h2 {
 .section-2 {
     margin: auto;
     /* border: 2px solid red; */
-    padding: 110px 0px 70px 0px;
     position: relative;
 }
 
@@ -586,7 +589,6 @@ h2 {
     background-image: url("../img/boxes-background.svg");
     width: 100%;
     height: 100%;
-    padding-bottom: 80px;
     background-size: cover;
     background-position: left center bottom;
     /* background-repeat: no-repeat; */
@@ -615,6 +617,8 @@ h2 {
 .sec-3-boxes {
     background-color: var(--white);
     padding: 0px;
+    transition: all 0.5s;
+    position: relative;
 }
 
 .sec-3-boxes .cont-detail {
@@ -626,6 +630,28 @@ h2 {
     display: flex;
     padding: 15px;
     justify-content: center;
+}
+
+.sec-3-boxes .order-btn {
+    position: absolute;
+    top: 23%;
+    left: 28%;
+    width: 160px;
+    padding: 10px 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: var(--purle);
+    border: none;
+}
+
+.order-btn:hover {
+    background-color: var(--yellow);
+}
+
+.sec-3-boxes:hover .order-btn {
+    visibility: visible;
+    opacity: 1;
 }
 
 .heading h2 {
@@ -921,7 +947,10 @@ h2 {
     color: var(black);
     position: relative;
 }
-
+.boxes-7:hover
+{
+    
+}
 .sec-7-cont {
     text-align: center;
     margin: auto;
@@ -1166,6 +1195,47 @@ footer a {
     z-index: -1;
 }
 
+.products-review .sec-3-boxes {
+    background-color: var(--white);
+    padding: 0px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.products-review .sec-3-boxes .cont-detail {
+    padding: 30px;
+}
+
+.products-review .sec-3-boxes .cont-img {
+    background-color: var(--offwhite);
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+
+.products-review .sec-3-boxes .order-btn {
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    width: 150px;
+    padding: 10px 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: var(--purle);
+    border: none;
+}
+
+.order-btn:hover {
+    background-color: var(--yellow);
+}
+
+.products-review .sec-3-boxes:hover .order-btn {
+    visibility: visible;
+    opacity: 1;
+}
+
+
 .banner-contain {
     text-transform: uppercase;
     color: var(--white);
@@ -1407,71 +1477,126 @@ a {
     width: 100%;
     border-radius: 20px;
     background-color: #f3f3f5;
-    padding: 15px 0px 15px 25px;
+    padding: 15px 25px 15px 25px;
     margin-bottom: 30px;
 }
-.fa-magnifying-glass
-{
+
+.fa-magnifying-glass {
     color: var(--darkblue);
 }
+
 .search {
-    background-color:transparent;
+    background-color: transparent;
     border: none;
 }
-.top-head
-{
-padding: 20px 25px 10px;
-margin-bottom: 15px;
-border-bottom: 1px solid grey;
-color: var(--blue);
+
+.top-head {
+    padding: 20px 25px 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+    color: var(--blue);
 }
-.list
-{
+
+.list {
     display: flex;
     justify-content: space-between;
 }
-.bottom ul li
-{
+
+.bottom ul li {
     /* display:flex; */
     align-content: center;
 }
-.bottom ul li div
-{
+
+.bottom ul li div {
     color: var(--blue);
     margin-bottom: 11px;
 }
-.fa-play
-{
-    margin-right:10px ;
+
+.fa-play {
+    margin-right: 10px;
     color: var(--yellow);
 }
-.bottom
-{
-    padding:0px 30px 30px;
+
+.bottom {
+    padding: 0px 30px 30px;
 }
-.widget
-{
+
+.widget {
     margin-bottom: 30px;
     border: none;
     background-color: #f3f3f5;
 }
-.post-content .title
-{
+
+.post-content .title {
     color: var(--blue);
     margin-bottom: 10px;
     font-size: 16px;
     font-weight: 500;
 }
-.fa-calendar-days
-{
+
+.fa-calendar-days {
     color: var(--yellow);
     margin-right: 10px;
 }
-.widget-post
-{
+
+.widget-post {
     margin-bottom: 10px;
 }
-.widget-post p
-{
+
+.widget-post p {
     color: var(--grey);
+}
+
+.bottom-section .heading {
+    margin: 25px 0px 15px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--grey);
+}
+
+.bottom-section .heading a h1 {
+    font-size: 29px;
+    color: var(--darkblue);
+    text-align: start;
+}
+
+.info p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+    padding-bottom: 15px;
+}
+
+.fa-padding {
+    padding-right: 10px;
+    color: var(--yellow);
+}
+
+.artical-1 {
+    box-shadow: 5px 2px 10px rgba(128, 128, 128, 0.415);
+    margin-bottom: 30px;
+}
+
+.bottom-section {
+    padding: 10px 30px 15px 30px;
+    text-align: justify;
+}
+
+.bottom-section .contain {
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.bottom-contain a h3 {
+    text-align: start;
+    font-size: 16px;
+    color: var(--yellow);
+}
+
+.contain span {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--darkblue);
+    margin-left: 30px;
+    font-family: var(--roboto);
 }
