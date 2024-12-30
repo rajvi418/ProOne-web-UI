@@ -1034,7 +1034,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-input {
+.email input {
     width: 70%;
     height: 60px;
     background-color: #adabf4;
@@ -1043,7 +1043,7 @@ input {
     font-size: inherit;
 }
 
-.subscribe-btn {
+.email .subscribe-btn {
     width: 30%;
     margin-left: -5px;
     height: 60px;
@@ -1268,20 +1268,107 @@ span {
     margin-bottom: 10px;
     color: var(--grey);
     font-family: var(--roboto);
+    line-height: 26px;
 }
+
+/* bottom detail */
 .box-1
 {
-    padding: 35px 0px;
-    /* margin: auto; */
+    display: block;
+    padding: 30px 0px;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.415);
 }
-.box-1 a
+.box-1 , a
 {
-    font-size: 18px;
+    text-align: center;
     color: var(--grey);
+    font-size: 18px;
     font-family: var(--poppins);
 }
 .box-1 .img
 {
     width: 30%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.inputs
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.inputs input
+{
+    width: 50%;
+    padding:15px 15px;
+    border: none;
+    font-family: var(--roboto);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.inputs textarea
+{
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    width:100%; 
+    padding: 15px;
+    font-size: 16px;
+    font-family: var(--roboto);
+    margin-bottom: 18px;
+}
+.contact-btn {
+    width: 170px;
+    height: 45px;
+    background-color: var(--purle);
+    border: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.contact-btn .svg {
+    transition: all 0.5s;
+    color: var(--yellow);
+    margin-right: 5px;
+    z-index: 2;
+}
+
+.contact-btn::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: var(--yellow);
+    transition: all 0.5s;
+    z-index: -2;
+    transform: translateX(150px) translateY(-100px) rotate(45deg);
+}
+
+.contact-btn:hover::after {
+    transform: translateX(0px);
+}
+
+.contact-btn::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    background-color: var(--yellow);
+    transition: all 0.5s;
+    transform: translatex(-150px) translateY(-100px) rotate(-45deg);
+}
+
+.contact-btn:hover::before {
+    transform: translateX(0px);
+}
+
+.contact-btn:hover .svg {
+    color: var(--white);
 }
