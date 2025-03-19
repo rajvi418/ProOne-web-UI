@@ -18,7 +18,9 @@
     --offwhite: #f5f5f5;
     --lightyellow: rgba(254, 172, 1, .5);
 }
-
+html , body{
+    scroll-behavior: smooth;
+}
 .container {
     width: 1140px;
     margin: auto;
@@ -975,7 +977,9 @@ h2 {
 
 .sec-7-boxes {
     margin-top: 30px;
+    position: relative;
 }
+
 
 .sec-7-boxes .img-sec {
 
